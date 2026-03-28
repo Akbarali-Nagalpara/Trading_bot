@@ -1,0 +1,44 @@
+
+python cli.py --symbol BTCUSDT --side SELL --type LIMIT --quantity 0.002 --price 70000
+
+
+==================== ORDER EXECUTION LOG ====================
+
+[REQUEST SNAPSHOT]
+Mode            : Direct Command
+Symbol          : BTCUSDT
+Side            : SELL
+Order Type      : LIMIT
+Quantity        : 0.002
+Price           : 70000
+Stop Price      : N/A
+
+------------------------------------------------------------
+
+[ORDER VALIDATION]
+Reference Price     : 70000
+Estimated Notional  : 140.00 USDT
+Estimated Fee       : 0.056 USDT (0.04%)
+Min Notional Check  : PASS (Minimum: 100 USDT)
+
+------------------------------------------------------------
+
+[EXECUTION]
+Execution Type  : LIMIT Order Submitted
+User Confirmed  : YES
+
+------------------------------------------------------------
+
+[ORDER RESPONSE]
+Order ID        : 13001806852
+Status          : NEW
+Executed Qty    : 0.000
+Average Price   : 0.00
+
+------------------------------------------------------------
+
+[FINAL RESULT]
+Message         : Order placed successfully
+Execution State : Pending (waiting for market match)
+
+============================================================

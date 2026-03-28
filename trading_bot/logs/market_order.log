@@ -1,0 +1,46 @@
+
+
+python cli.py --symbol BTCUSDT --side BUY --type MARKET --quantity 0.002
+
+
+
+==================== ORDER EXECUTION LOG ====================
+
+[REQUEST SNAPSHOT]
+Mode            : Direct Command
+Symbol          : BTCUSDT
+Side            : BUY
+Order Type      : MARKET
+Quantity        : 0.002
+Price           : Market
+Stop Price      : N/A
+
+------------------------------------------------------------
+
+[ORDER VALIDATION]
+Reference Price     : 66283.90
+Estimated Notional  : 132.5678 USDT
+Estimated Fee       : 0.05302712 USDT (0.04%)
+Min Notional Check  : PASS (Minimum: 100 USDT)
+
+------------------------------------------------------------
+
+[EXECUTION]
+Execution Type  : MARKET Order Submitted
+User Confirmed  : YES
+
+------------------------------------------------------------
+
+[ORDER RESPONSE]
+Order ID        : 13001809300
+Status          : NEW
+Executed Qty    : 0.000
+Average Price   : 0.00
+
+------------------------------------------------------------
+
+[FINAL RESULT]
+Message         : Order placed successfully
+Execution State : Processing (expected to fill immediately)
+
+============================================================
